@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS = false; L_NO_TOUCH = false; L_DISABLE_3D = false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawgit.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <style> #map_b45263ba43fa4c12afa35200bccd6dbc {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_b45263ba43fa4c12afa35200bccd6dbc" ></div>
+        
+</body>
+<script>    
+    
+
+            
+                var bounds = null;
+            
+
+            var map_b45263ba43fa4c12afa35200bccd6dbc = L.map(
+                                  'map_b45263ba43fa4c12afa35200bccd6dbc',
+                                  {center: [48.8398094,2.5840685],
+                                  zoom: 15,
+                                  maxBounds: bounds,
+                                  layers: [],
+                                  worldCopyJump: false,
+                                  crs: L.CRS.EPSG3857
+                                 });
+            
+        
+    
+            var tile_layer_45c7c58275714273a2e85140a71cda08 = L.tileLayer(
+                'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+                {
+  "attribution": null,
+  "detectRetina": false,
+  "maxZoom": 18,
+  "minZoom": 1,
+  "noWrap": false,
+  "subdomains": "abc"
+}
+                ).addTo(map_b45263ba43fa4c12afa35200bccd6dbc);
+        
+    
+
+            var marker_0905780a52fc497982cf0f19f5d5ae78 = L.marker(
+                [48.8490591,2.577023],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_b45263ba43fa4c12afa35200bccd6dbc);
+            
+    
+            var popup_d2fa40f31538493297dc64ed43e3dd85 = L.popup({maxWidth: '300'});
+
+            
+                var html_03dd42942fd3434381313a4538d51fa2 = $('<div id="html_03dd42942fd3434381313a4538d51fa2" style="width: 100.0%; height: 100.0%;">MacDo</div>')[0];
+                popup_d2fa40f31538493297dc64ed43e3dd85.setContent(html_03dd42942fd3434381313a4538d51fa2);
+            
+
+            marker_0905780a52fc497982cf0f19f5d5ae78.bindPopup(popup_d2fa40f31538493297dc64ed43e3dd85);
+
+            
+        
+</script>
